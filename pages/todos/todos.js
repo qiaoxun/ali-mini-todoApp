@@ -9,6 +9,7 @@ Page({
     // 获取用户信息并存储数据
     app.getUserInfo().then(
       user => {
+        console.log('user = ', user)
         this.setData({
           user,
         });

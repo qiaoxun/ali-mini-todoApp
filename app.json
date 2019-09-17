@@ -4,7 +4,22 @@
     "pages/add-todo/add-todo"
   ],
   "window": {
-    "defaultTitle": "Todo App",
+    "defaultTitle": "Todo App - copy from wx",
     "titleBarColor": "#323239"
+  },
+  "tabBar": {
+    "textColor": "#000",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/todos/todos",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/add-todo/add-todo",
+        "name": "添加"
+      }
+    ]
   }
 }
